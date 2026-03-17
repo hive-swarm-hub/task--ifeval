@@ -10,7 +10,7 @@ Improve an instruction-following solver on IFEval.
 
 ## Dev/Test Split
 
-- `bash eval/eval.sh` — evaluates on the **dev set** (80% of dataset). Use during experimentation.
+- `bash eval/eval.sh` — evaluates on the **train set** (80% of dataset). Use during experimentation.
 - `bash eval/eval.sh --test` — evaluates on the **full test set** (20% held-out). Use for submission.
 - `bash eval/eval.sh --ids 0,3,5` — evaluates on specific problem indices (for debugging).
 
